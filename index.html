@@ -5,7 +5,7 @@
     <meta name="viewport" content=" width=device-width,height=device-height,
                                     initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>EUSA Splash Page</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
     <style>
         /* style resets */
         html, body, body div, strong, small, h1, img, footer{
@@ -37,7 +37,6 @@
 
         /* site styles */
         body{height: 100vh; font-family: 'Montserrat', sans-serif;}
-        br{display: none;}
         strong{font-weight: 700;}
         a{text-decoration: none; text-transform: uppercase;}
         h1{height: 34%; padding-top: 3%;}
@@ -87,6 +86,9 @@
                 line-height: 30px;
                 font-size: 24px;
             }
+            .visible-xs{
+                display: none!important;
+            }
         }
     </style>
 </head>
@@ -100,10 +102,10 @@
     </div>
     <footer>
         <div>
-            <br/>
-            <a href="#" class="no-top-margin">t&c<small>s</small></a><br/>
-            <a href="#">privacy policy</a><br/>
-            <a href="#">cookie policy</a><br/>
+            <br class="visible-xs"/>
+            <a href="#" class="no-top-margin">t&c<small>s</small></a><br class="visible-xs"/>
+            <a href="#">privacy policy</a><br class="visible-xs"/>
+            <a href="#">cookie policy</a><br class="visible-xs"/>
             <a href="#">prescribing&nbsp;information</a>
         </div>
     </footer>
